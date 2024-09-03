@@ -1,0 +1,100 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensures the body takes up the full height */
+    width: 100%;  /* Ensures the body takes up the full width */
+}
+
+.form-image {
+    display: flex;
+    background-image: url(background.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    width: auto;
+    height:auto; 
+    
+}
+
+.form-container {
+    background-color: black;
+    opacity: 70%;
+    margin: 10% 10%;
+    padding: 50px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.form-header{
+    border-bottom: 2px solid #fff;
+}
+
+.form-header h2{
+    text-align: center;
+    font-size:xx-large;
+    color: #ff9900;
+}
+
+.form-item {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.form-item p {
+    display: block;
+    padding: 10px;
+}
+
+.form-item input {
+   margin-left: 20px;
+   margin-bottom: 20px;
+}
+
+.form-item .date{
+    padding: 10px;
+}
+
+.form-item textarea {
+    width: 80%; /* Full width of the container */
+    padding: 10px; /* Space inside the textarea */
+    font-size: 16px; /* Font size for the text */
+    font-family: Arial, sans-serif; /* Font family */
+    color: #333; /* Text color */
+    background-color: #f9f9f9; /* Background color */
+    border: 1px solid #ccc; /* Border color and style */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+    resize: vertical; /* Allow vertical resizing only */
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.form-button {
+    text-align: center; /* Centers the button horizontally within the div */
+    margin-top: 20px; /* Adds some space above the button */
+}
+
+.form-button button {
+    background-color: #ff9900; /* Button background color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 16px; /* Font size */
+    font-family: Arial, sans-serif; /* Font family */
+    border: none; /* Removes the default border */
+    border-radius: 5px; /* Rounds the corners */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.form-button button:hover {
+    background-color: #d68712; /* Darker background on hover */
+}
+
+.form-button button:active {
+    background-color: #ff9900; /* Even darker background when clicked */
+}
+
+.form-button button:focus {
+    outline: none; /* Removes the default focus outline */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Adds a shadow when focused */
+}
